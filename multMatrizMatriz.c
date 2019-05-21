@@ -50,10 +50,10 @@ int main(int argc, char const *argv[])
 	int j, jstart, jend;
 	int k, kstart, kend;
 
-	A =  aligned_alloc(32, TAM*TAM*sizeof(double));
-	B =  aligned_alloc(32, TAM*TAM*sizeof(double));
-	Bt = aligned_alloc(32, TAM*TAM*sizeof(double));
-	C =  aligned_alloc(32, TAM*TAM*sizeof(double));
+	A =  aligned_alloc(64, TAM*TAM*sizeof(double));
+	B =  aligned_alloc(64, TAM*TAM*sizeof(double));
+	Bt = aligned_alloc(64, TAM*TAM*sizeof(double));
+	C =  aligned_alloc(64, TAM*TAM*sizeof(double));
 
 	memset(C, 0.0, TAM*TAM*sizeof(double));
 	
